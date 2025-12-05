@@ -9,7 +9,7 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <div className='w-full bg-[#001427] px-5 nav-md:px-0'>
+        <nav className='w-full bg-[#001427] px-5 nav-md:px-0'>
 
             <div className='container flex nav-md:flex-col nav-lg:flex-row items-center justify-between gap-5' >
 
@@ -54,7 +54,7 @@ const Navbar = () => {
 
             {/* side bar */}
             <Sidebar isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-        </div>
+        </nav>
     )
 }
 

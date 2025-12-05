@@ -2,13 +2,18 @@
 @import "tailwindcss";
 
 
+:root {
+  --main-bg-gradient: linear-gradient(to top, #121e47, #071725);
+}
+
 * {
     font-family: "Open Sans", sans-serif;
 }
 
 body {
     color: #ffffff;
-    background-color: #02182c;
+    background: var(--main-bg-gradient);
+    min-height: 100vh;
 }
 
 .container {
@@ -17,13 +22,14 @@ body {
     padding: 0 15px;
 }
 
-/* 1200 */
-
 @theme {
     --breakpoint-nav-xl: 910px;
     --breakpoint-nav-lg: 850px;
     --breakpoint-nav-md: 550px;
 
-
+    --breakpoint-hero-xxl: 1461px;
+    --breakpoint-hero-xl: 1205px;
+    --breakpoint-hero-lg: 1030px;
+    --breakpoint-hero-md: 630px;
     
 }
