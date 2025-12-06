@@ -9,7 +9,8 @@ const HeroComponent = ({
     primaryBtnText, 
     secondaryBtnText, 
     margin, 
-    titleSize 
+    titleClass,
+    pClass,
 }) => {
   return (
     <>
@@ -19,8 +20,8 @@ const HeroComponent = ({
                 {subtitle && (
                     <p className='text-[#3A68B8] uppercase'>{subtitle}</p>
                 )}
-                <h1 className={`text-3xl hero-md:text-[${titleSize}] font-bold mt-1 mb-3 hero-lg:mt-2.5 hero-lg:mb-10`}>{title}</h1>
-                <p className='mb-5 text-gray-300 hero-lg:mb-[50px]'>{description}</p>
+                <h1 className={`text-3xl ${titleClass} font-extrabold mt-1 mb-3 hero-lg:mt-2.5 hero-lg:mb-10`}>{title}</h1>
+                <p className={`${pClass} mb-5 text-gray-300 hero-lg:mb-[50px]`}>{description}</p>
             </div>
 
             <div className='space-x-5'>
@@ -33,7 +34,7 @@ const HeroComponent = ({
 
         {/* right side */}
         <div className='px-4 hero-md:px-0'>
-            <img src={image} alt="hero" className={`hero-sm:max-w-[400px] hero-xxl:${margin} hero-xxl:max-w-[635px] h-auto object-cover`} /> 
+            <img src={image} alt="hero" className={`hero-sm:max-w-[400px] ${margin} hero-xxl:max-w-[635px] h-auto object-cover`} /> 
         </div>
     </>
   )
