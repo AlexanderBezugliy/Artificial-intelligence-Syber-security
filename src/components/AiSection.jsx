@@ -13,8 +13,8 @@ const AiSection = () => {
                         image="/img/ai-section/ai-hero.png"
                         primaryBtnText='Learn More'
                         margin='hero-xxl:-ml-25'
-                        titleClass='hero-md:text-[43px]'
-                        pClass='max-w-[470px]'
+                        titleClass='font-bold hero-md:text-[43px] mt-1 mb-3 hero-lg:mt-2.5 hero-lg:mb-10'
+                        pClass='max-w-[470px] mb-5 hero-lg:mb-[50px]'
                     />
                 </div>
             </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import AiSection from './components/AiSection'
 import HeroSection from './components/HeroSection'
+import TestimonialSection from './components/TestimonialSection'
 
 
 
@@ -11,6 +12,7 @@ const App = () => {
             <Navbar />
             <HeroSection />
             <AiSection />
+            <TestimonialSection />
 
 
         </>

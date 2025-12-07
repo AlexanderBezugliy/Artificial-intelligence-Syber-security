@@ -20,15 +20,13 @@ const HeroComponent = ({
                 {subtitle && (
                     <p className='text-[#3A68B8] uppercase'>{subtitle}</p>
                 )}
-                <h1 className={`text-3xl ${titleClass} font-extrabold mt-1 mb-3 hero-lg:mt-2.5 hero-lg:mb-10`}>{title}</h1>
-                <p className={`${pClass} mb-5 text-gray-300 hero-lg:mb-[50px]`}>{description}</p>
+                <h1 className={`text-3xl ${titleClass}`}>{title}</h1>
+                <p className={`whitespace-pre-line ${pClass} text-gray-300`}>{description}</p>
             </div>
 
             <div className='space-x-5'>
-                <Button title={primaryBtnText} />
-                {secondaryBtnText && (
-                    <Button title={secondaryBtnText} icon='/img/watch.png' />
-                )}
+                {primaryBtnText && <Button title={primaryBtnText} />}
+                {secondaryBtnText && <Button title={secondaryBtnText} icon='/img/watch.png' />}
             </div>
         </div>
 

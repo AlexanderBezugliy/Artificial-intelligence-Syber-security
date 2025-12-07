@@ -14,8 +14,8 @@ const HeroSection = () => {
                         primaryBtnText='Get Started'
                         secondaryBtnText='Watch Video'
                         margin='hero-xxl:-mr-50'
-                        titleClass='hero-md:text-[55px]'
-                        pClass='max-w-[540px]'
+                        titleClass='font-extrabold hero-md:text-[55px] mt-1 mb-3 hero-lg:mt-2.5 hero-lg:mb-10'
+                        pClass='max-w-[540px] mb-5 hero-lg:mb-[50px]'
                     />
                 </div>
 
