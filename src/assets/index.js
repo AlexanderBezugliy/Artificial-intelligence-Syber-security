@@ -12,27 +12,27 @@ export const navItems = [
 export const sliderData = [
     {
         id: 1,
-        img: "/img/ai-section/icon1.png",
+        img: "/img/ai-section/icon2.png",
         title: "Naxly as the Winners in Global Agency Awards",
         text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups."
     },
     {
         id: 2,
-        img: "/img/ai-section/icon2.png",
+        img: "/img/ai-section/icon1.png",
         title: "Expert Perspective Agency Awards",
-        text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts."
+        text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups."
     },
     {
         id: 3,
-        img: "/img/ai-section/icon3.png",
+        img: "/img/ai-section/icon4.png",
         title: "Business Prespective Global Agency Awards",
         text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups."
     },
     {
         id: 4,
-        img: "/img/ai-section/icon4.png",
+        img: "/img/ai-section/icon3.png",
         title: "Value for Results in Global Agency Awards",
-        text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts."
+        text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups."
     },
 
     {
@@ -44,7 +44,7 @@ export const sliderData = [
 
     {
         id: 6,
-        img: "/img/ai-section/icon4.png",
+        img: "/img/ai-section/icon1.png",
         title: "Naxly as the Winners in Global Agency Awards",
         text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups."
     },
@@ -52,11 +52,11 @@ export const sliderData = [
         id: 7,
         img: "/img/ai-section/icon2.png",
         title: "Expert Perspective Agency Awards",
-        text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts."
+        text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups."
     },
     {
         id: 8,
-        img: "/img/ai-section/icon1.png",
+        img: "/img/ai-section/icon3.png",
         title: "Business Prespective Global Agency Awards",
         text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups."
     },
@@ -64,7 +64,7 @@ export const sliderData = [
         id: 9,
         img: "/img/ai-section/icon4.png",
         title: "Value for Results in Global Agency Awards",
-        text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts."
+        text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups."
     },
     {
         id: 10,
@@ -75,7 +75,7 @@ export const sliderData = [
 
     {
         id: 11,
-        img: "/img/ai-section/icon5.png",
+        img: "/img/ai-section/icon4.png",
         title: "Global Experience in Agency Awards",
         text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups."
     },
@@ -89,7 +89,7 @@ export const sliderData = [
         id: 13,
         img: "/img/ai-section/icon2.png",
         title: "Expert Perspective Agency Awards",
-        text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts."
+        text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups."
     },
     {
         id: 14,
@@ -99,8 +99,8 @@ export const sliderData = [
     },
     {
         id: 15,
-        img: "/img/ai-section/icon4.png",
+        img: "/img/ai-section/icon5.png",
         title: "Value for Results in Global Agency Awards",
-        text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts."
+        text: "Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups."
     },
 ];
