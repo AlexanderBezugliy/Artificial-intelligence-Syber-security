@@ -2,6 +2,7 @@
 @import "tailwindcss";
 
 
+
 :root {
   --main-bg-gradient: linear-gradient(to top, #121e47, #071725);
 }
@@ -27,7 +28,6 @@ body {
     --breakpoint-nav-lg: 850px;
     --breakpoint-nav-md: 550px;
 
-    /* --breakpoint-hero-xxl: 1461px; */
     --breakpoint-hero-xxl: 1550px;
     --breakpoint-hero-xl: 1205px;
     --breakpoint-hero-lg: 865px;
