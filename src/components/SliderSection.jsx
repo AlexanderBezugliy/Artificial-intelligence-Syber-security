@@ -50,7 +50,7 @@ const SliderSection = () => {
                     const currentCards = sliderData.slice(pageIndex * 5, (pageIndex + 1) * 5);
 
                     return (
-                        <div key={pageIndex} className='min-w-full grid grid-cols-2 md:grid-cols-3 hero-xxl:grid-cols-5 gap-2 sm:gap-[30px] px-7 hero-xxl:px-0 select-none'>
+                        <div key={pageIndex} className='min-w-full grid grid-cols-2 hero-xl:grid-cols-3 hero-xxl:grid-cols-5 gap-2 sm:gap-[30px] px-7 hero-xxl:px-0 select-none'>
                             {currentCards.map((card) => (
                                 <div key={card.id} className='bg-gray-800 text-gray-400 text-center rounded-xl p-3 sm:p-[30px] flex flex-col items-center gap-3 sm:gap-[30px] h-full'>
                                     {/* pointer-events-none, чтобы картинка не мешала тянуть */}
